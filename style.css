@@ -1,0 +1,77 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #fff;
+  --link-color: #fff;
+  --link-hover-color: rgb(255, 136, 0);
+  --button-color: rgb(255, 101, 0);
+  --button-hover-color: rgb(255, 136, 0);
+  --block-color: rgb(11, 25, 44);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Roboto, serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100rem;
+  height: 5rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  background-color: var(--block-color);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  font-size: 1.6rem;
+}
+
+#menu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--block-color);
+  color: var(--text-color);
+}

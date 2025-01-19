@@ -1,0 +1,82 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #fff;
+  --link-color: #fff;
+  --link-hover-color: rgb(255, 136, 0);
+  --button-color: rgb(255, 101, 0);
+  --button-hover-color: rgb(255, 136, 0);
+  --block-color: rgb(11, 25, 44);
+}
+
+main {
+  text-align: center;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 5rem 0 0 0;
+}
+
+main > div {
+  margin: 5rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#donate {
+  background-color: var(--block-color);
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#aim {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#aim div {
+  width: 60%;
+  height: 100%;
+}
+#aim p {
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-align: justify;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
