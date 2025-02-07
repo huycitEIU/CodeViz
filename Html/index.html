@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/reset-style.css"/>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+    <title>CodeViz</title>
+</head>
+<body>
+<nav>
+    <div id="logo">CodeViz</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div id="menu" class="popup-message" ><i class="fa-solid fa-bars"></i></div>
+</nav>
+<div>
+    <ol id="function-bar">
+        <li class="btn-func popup-message">
+            <span>Max Number</span>
+        </li>
+        <li class="btn-func popup-message">
+            <span>Bubble Sort</span>
+        </li>
+        <li class="btn-func popup-message">
+            <span>Selection Sort</span>
+        </li>
+        <li class="btn-func popup-message">
+            <span>Insertion Sort</span>
+        </li>
+    </ol>
+</div>
+<div id="showing-area">
+</div>
+<div id="control-bar">
+    <div id="btn-start" class="btn-func popup-message">Start</div>
+    <div id="btn-pause" class="btn-func popup-message">Pause</div>
+    <div id="btn-reset" class="btn-func popup-message">Reset</div>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p>This function is developing!</p>
+        <span class="close">&times;</span>
+    </div>
+</div>
+
+
+</body>
+<script src="../JS/script.js"></script>
+</html>
